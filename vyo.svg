@@ -1,0 +1,28 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+>
+  <!-- O / Lingkaran -->
+  <circle
+    cx="32"
+    cy="32"
+    r="21"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="5.5"
+  />
+
+  <!-- V utama -->
+  <path
+    d="
+      M10 18
+      Q24 30 32 42
+      Q40 30 54 18
+    "
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
