@@ -1,18 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ['index.html'],
-  theme: {
-    container:{
-      center: true,
-      padding: '16px',
-    },
-    extend: {
-      colors:{
-        primary: '#F8F6F6',
-      },
-      
-    },
-  },
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  theme: { extend: {} },
   plugins: [],
-}
-
+};
