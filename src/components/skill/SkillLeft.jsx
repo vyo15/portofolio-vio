@@ -13,7 +13,7 @@ export default function SkillLeft() {
     >
       {/* Title */}
       <h1 className="font-semibold uppercase text-2xl lg:pt-10 pb-6">
-        Skills & Education
+        Formal Education
       </h1>
 
       {/* EDUCATION TIMELINE */}
