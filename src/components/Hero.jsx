@@ -68,9 +68,15 @@ export default function Hero() {
                 variants={fadeUp}
                 initial={shouldReduceMotion ? false : "hidden"}
                 animate="show"
-                className="mt-2 lg:mt-0
-                           w-[260px] sm:w-[360px] md:w-[420px]
-                           lg:w-[560px]"
+                className="
+        mt-2 lg:mt-0
+        w-[92vw]
+        max-w-[480px]
+        sm:w-[460px]
+        md:w-[560px]
+        lg:w-[660px]
+        lg:max-w-none
+      "
               >
                 <img
                   src={vioImg}
